@@ -1,0 +1,167 @@
+/*css document for register html*/
+
+body{
+	background-image: url(../../res/img/007.jpg);
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.register-logo
+{
+	position: absolute;
+	margin-top:5%;
+	z-index: -2;
+}
+
+.register-slogen{
+	position: absolute;
+	margin-top: 20%;
+	z-index: -1;
+}
+
+.register{
+	width:450px;
+	height: 500px;
+	margin-top: 4%;
+	margin-right: 5%;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.top{
+	margin-top: 30px;
+	margin-bottom:40px;
+	margin-left: 45px;
+}
+#register-c{
+	font-size: 40px;
+	border-right: 2px #00aeff solid;
+}
+#register-e{
+	font-size:30px;
+}
+
+form input,
+form label{
+	height: 32px;
+	font-size: 20px;
+	border: hidden;
+}
+
+form label{
+	text-align: center;
+	border-right:1px gray solid;
+}
+
+.manager-username,
+.manager-password,
+.manager-password2,
+.manager-email,
+.manager-vertification{
+	border: 1px gray solid;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 20px;
+	display: inline-block;
+}
+
+.manager-vertification{
+	margin-bottom: 50px;
+	border: none;
+}
+.manager-vertification input{
+	height: 38px;
+	border: 1px gray solid;
+	border-radius: 4px;
+}
+
+.manager-vertification input,
+.manager-vertification img{
+	vertical-align: middle;
+}
+
+.manager-vertification img{
+	border:1px gray solid;
+	border-radius: 4px;
+}
+
+.manager-submit{
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+	border-top: 1px dotted #00aeff;
+
+}
+#submit,#reset{
+	height: 48px;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #66d1f1;
+	border-radius: 4px;
+	color: #ffffff;
+}
+#submit:hover,#reset:hover{
+	background-color: #a2dffc;
+}
+
+
+span input{
+	outline: none;
+	border: none;
+}
+.s_name_msg,
+.s_pwd_msg,
+._pwd_msg,
+.s_email_msg{
+	display:none;
+	position: absolute;
+	width: 150px;
+	height: 60px;
+	margin-left:86%;
+	color: gray;
+	z-index: 10;
+}
+#s_name_msg,
+#s_pwd_msg,
+#_pwd_msg,
+#s_email_msg{
+	height: 100%;
+	width: 90%;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 4px;
+	border: 1px solid gray;
+	color: #000;
+	font-size: 10px;
+	vertical-align: middle;
+	box-shadow: 0 8px 16px rgba(136, 128, 127, 0.5);
+}
+
+.s_name_msg{
+	margin-top: 12%;
+}
+.s_pwd_msg{
+	margin-top: 16%;
+}
+._pwd_msg{
+	margin-top: 19%;
+}
+.s_email_msg{
+	margin-top: 22%;
+}
+
+a:link {
+	font-size: 16px;
+	color: #00a1ff;
+	text-decoration: none;
+}
+a:visited {
+	font-size: 16px;
+	color: #00a3ff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 16px;
+	color: slateblue;
+	text-decoration: none;
+}

@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="lexian-mall:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4be2e77d-59f6-4662-8706-c710d1678956" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/web/user/pages/goodsSearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/pages/shopSearch.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/res/static/guess_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/works/css/goodSearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/works/css/shopSearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/works/js/searchgood.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/user/works/js/searchshop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/goods/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/goods/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/goods/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/goods/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/order/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/order/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/seller/dao/SellerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/seller/dao/SellerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/user/web/servlet/GuessLikeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/user/web/servlet/GuessLikeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/WEB-INF/classes/cose/lexian/user/web/servlet/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/GoodCard/goodCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/GoodCard/goodCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/Map/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/Map/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/ShopCard/shopCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/component/ShopCard/shopCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/pages/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/pages/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/bath.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/bath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/bill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/cereals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/clothing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/deli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/drinks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/fruit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/kitchen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/office.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/pc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/snacks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/res/icons/veg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/css/u_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/css/u_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/bill.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/bill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/goodList.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/goodList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/lexian_mall_war_exploded/user/works/js/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/goods/dao/GoodsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/goods/dao/GoodsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/goods/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/goods/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/order/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/order/dao/OrderDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/seller/dao/SellerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/seller/dao/SellerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/GuessLikeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/GuessLikeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/goods/dao/GoodsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/goods/dao/GoodsDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/goods/service/GoodsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/goods/service/GoodsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/order/dao/OrderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/order/dao/OrderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/seller/dao/SellerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/seller/dao/SellerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/user/web/servlet/GuessLikeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/user/web/servlet/GuessLikeServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/cose/lexian/user/web/servlet/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/component/GoodCard/goodCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/component/GoodCard/goodCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/component/Map/map.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/component/Map/map.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/component/ShopCard/shopCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/component/ShopCard/shopCard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/pages/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/pages/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/bath.1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/bath.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/bill.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/cereals.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/clothing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/deli.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/drinks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/fruit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/kitchen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/like.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/msg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/office.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/paper.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/pc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/snacks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/sport.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/res/icons/veg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/css/u_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/css/u_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/js/bill.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/js/bill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/js/goodList.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/js/goodList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/user/works/js/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/user/works/js/person.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-348655696">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="5" />
+          <entry key="project.open.time.3" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="25" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="java" value="272" />
+          <entry key="js" value="1" />
+          <entry key="jsp" value="187" />
+          <entry key="properties" value="5" />
+          <entry key="sql" value="6" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="272" />
+          <entry key="JSP" value="187" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Properties" value="5" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="12" />
+          <entry key="java" value="27418" />
+          <entry key="jsp" value="5079" />
+          <entry key="properties" value="86" />
+          <entry key="sql" value="8" />
+          <entry key="txt" value="18" />
+          <entry key="xml" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="27418" />
+          <entry key="JSP" value="5079" />
+          <entry key="PLAIN_TEXT" value="30" />
+          <entry key="Properties" value="86" />
+          <entry key="SQL" value="8" />
+          <entry key="XML" value="36" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="95187931">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="26" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="71" />
+          <entry key="html" value="5" />
+          <entry key="java" value="363" />
+          <entry key="js" value="78" />
+          <entry key="jsp" value="263" />
+          <entry key="md" value="1" />
+          <entry key="png" value="3" />
+          <entry key="properties" value="5" />
+          <entry key="sql" value="1" />
+          <entry key="svg" value="2" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="71" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="363" />
+          <entry key="JSP" value="263" />
+          <entry key="JavaScript" value="78" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="5" />
+          <entry key="SQL" value="1" />
+          <entry key="SVG" value="2" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="393" />
+          <entry key="dummy" value="6" />
+          <entry key="html" value="4" />
+          <entry key="java" value="13317" />
+          <entry key="js" value="3153" />
+          <entry key="jsp" value="8303" />
+          <entry key="properties" value="186" />
+          <entry key="xml" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="393" />
+          <entry key="HTML" value="14" />
+          <entry key="JAVA" value="13317" />
+          <entry key="JSP" value="8303" />
+          <entry key="JavaScript" value="3143" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Properties" value="186" />
+          <entry key="XML" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lexian-mall" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/GuessLikeServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/pages/goodsSearch.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/works/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/works/js/person.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserLoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/works/css/u_footer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/works/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="89" column="53" lean-forward="true" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+              <folding>
+                <element signature="e#143#202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/user/component/GoodCard/goodCard.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="jsf" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>findTypeById</find>
+      <find>findGoodsBySub_i</find>
+      <find>username</find>
+      <find>msg</find>
+      <find>label</find>
+      <find>toGoo</find>
+      <find>this.link</find>
+      <find>link</find>
+      <find>local</find>
+      <find>localStorage.getItem('types')</find>
+      <find>ajax</find>
+      <find>findIndex</find>
+      <find>margin</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>api</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="SJ.Z &lt;522617302@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/user/pages/person.jsp" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LoadTypeServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/component/TypeNav/typeNav.js" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LoadSubTypeAndTypeGoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/CheckUserNameServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserRegistServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/component/TypeList/typeList.js" />
+        <option value="$PROJECT_DIR$/web/user/works/js/likegoods.js" />
+        <option value="$PROJECT_DIR$/web/user/works/js/likeshops.js" />
+        <option value="$PROJECT_DIR$/web/user/pages/shopListLike.jsp" />
+        <option value="$PROJECT_DIR$/web/user/works/css/likegoods.css" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LikeGoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/RemoveLikeGoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LikeSellerServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/pages/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/order/web/servlet/AddOrderServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/component/CartItem/cartItem.js" />
+        <option value="$PROJECT_DIR$/web/user/pages/bill.jsp" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/order/web/servlet/OrderServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/works/js/cart.js" />
+        <option value="$PROJECT_DIR$/web/user/works/js/msg.js" />
+        <option value="$PROJECT_DIR$/web/user/works/js/like.js" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/works/js/bill.js" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/order/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/goods/web/servlet/SearchGoodsServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/SearchSellerServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/works/js/goodList.js" />
+        <option value="$PROJECT_DIR$/web/user/pages/search.html" />
+        <option value="$PROJECT_DIR$/web/user/pages/search.jsp" />
+        <option value="$PROJECT_DIR$/web/user/pages/goodsSearch.jsp" />
+        <option value="$PROJECT_DIR$/web/user/works/css/goodSearch.css" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/seller/dao/SellerDao.java" />
+        <option value="$PROJECT_DIR$/web/user/works/js/searchgood.js" />
+        <option value="$PROJECT_DIR$/web/user/pages/shopSearch.jsp" />
+        <option value="$PROJECT_DIR$/web/user/works/js/searchshop.js" />
+        <option value="$PROJECT_DIR$/web/user/component/ShopCard/shopCard.js" />
+        <option value="$PROJECT_DIR$/web/user/component/Map/map.css" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/SearchGoodsServlet.java" />
+        <option value="$PROJECT_DIR$/web/user/works/js/person.js" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/goods/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/goods/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/web/user/works/css/index.css" />
+        <option value="$PROJECT_DIR$/web/user/works/css/u_footer.css" />
+        <option value="$PROJECT_DIR$/web/user/works/js/index.js" />
+        <option value="$PROJECT_DIR$/web/user/component/GoodCard/goodCard.js" />
+        <option value="$PROJECT_DIR$/web/user/index.jsp" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/GuessLikeServlet.java" />
+        <option value="$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserLoginServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="736" />
+    <option name="y" value="45" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lexian" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="adminjsps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="adminjsps" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="GoodCard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lexian-webservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lexian-webservice" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="sendEm&#9;PSI&#9;JAVA://cose.lexian.admin.web.serlvet.AdminServlet#sendEmail" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536569119940" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\type_img" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\sellerjsps\res\img" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\sellerjsps\seller" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\sellerjsps\works\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cose.lexian.user.web.servlet" />
+      <recent name="cose.lexian.order" />
+      <recent name="cose.lexian.order.web.servlet" />
+      <recent name="cose.lexian.seller.web.filter" />
+      <recent name="cose.lexian.util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\user\res\static" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\user\works\js" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\user\works\css" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\user\pages" />
+      <recent name="C:\Users\炸弹人\IdeaProjects\lexian-webservice\web\sellerjsps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.90">
+    <configuration name="AdminTest.addGoods" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lexian-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cose.lexian.admin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cose.lexian.admin.test" />
+      <option name="MAIN_CLASS_NAME" value="cose.lexian.admin.test.AdminTest" />
+      <option name="METHOD_NAME" value="addGoods" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminTest.fun1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lexian-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cose.lexian.admin.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cose.lexian.admin.test" />
+      <option name="MAIN_CLASS_NAME" value="cose.lexian.admin.test.AdminTest" />
+      <option name="METHOD_NAME" value="fun1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginServlet.doPost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lexian-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cose.lexian.user.web.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cose.lexian.user.web.servlet" />
+      <option name="MAIN_CLASS_NAME" value="cose.lexian.user.web.servlet.UserLoginServlet" />
+      <option name="METHOD_NAME" value="doPost" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserLoginServlet.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lexian-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cose.lexian.user.web.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cose.lexian.user.web.servlet" />
+      <option name="MAIN_CLASS_NAME" value="cose.lexian.user.web.servlet.UserLoginServlet" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 7.0.90" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="D:/Program Files/Java/jdk-10.0.1">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="lexian-mall:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/lexian-mall" />
+          </settings>
+        </artifact>
+        <file path="$PROJECT_DIR$/goods_img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/lexian-mall/goods_img" />
+          </settings>
+        </file>
+        <file path="$PROJECT_DIR$/type_img">
+          <settings>
+            <option name="CONTEXT_PATH" value="/lexian-mall/type_img" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_lexian-mall" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="60458" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="lexian-mall:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 7.0.90" />
+      <item itemvalue="JUnit.AdminTest.fun1" />
+      <item itemvalue="JUnit.AdminTest.addGoods" />
+      <item itemvalue="JUnit.UserLoginServlet.doPost" />
+      <item itemvalue="JUnit.UserLoginServlet.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserLoginServlet.test" />
+        <item itemvalue="JUnit.UserLoginServlet.doPost" />
+        <item itemvalue="JUnit.AdminTest.addGoods" />
+        <item itemvalue="JUnit.AdminTest.fun1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4be2e77d-59f6-4662-8706-c710d1678956" name="Default Changelist" comment="" />
+      <created>1534928863896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534928863896</updated>
+      <workItem from="1534928868266" duration="1786000" />
+      <workItem from="1534985092103" duration="7535000" />
+      <workItem from="1535004079419" duration="2789000" />
+      <workItem from="1535021156053" duration="3460000" />
+      <workItem from="1535074801501" duration="5665000" />
+      <workItem from="1535090393720" duration="11564000" />
+      <workItem from="1535107485836" duration="9596000" />
+      <workItem from="1535160380129" duration="9335000" />
+      <workItem from="1535173382415" duration="14773000" />
+      <workItem from="1535250430446" duration="8868000" />
+      <workItem from="1535330465686" duration="10382000" />
+      <workItem from="1535349277819" duration="12361000" />
+      <workItem from="1535367918070" duration="7056000" />
+      <workItem from="1535416396097" duration="9410000" />
+      <workItem from="1535439775467" duration="7085000" />
+      <workItem from="1535456457619" duration="2893000" />
+      <workItem from="1535503494039" duration="10075000" />
+      <workItem from="1535522610396" duration="12465000" />
+      <workItem from="1535539277850" duration="4750000" />
+      <workItem from="1535544283010" duration="6063000" />
+      <workItem from="1535589283080" duration="10239000" />
+      <workItem from="1535602562201" duration="1760000" />
+      <workItem from="1535609155716" duration="6953000" />
+      <workItem from="1535624082589" duration="11479000" />
+      <workItem from="1535676470058" duration="4215000" />
+      <workItem from="1535684432461" duration="1880000" />
+      <workItem from="1535695220551" duration="10021000" />
+      <workItem from="1535728101877" duration="4287000" />
+      <workItem from="1535762109666" duration="5879000" />
+      <workItem from="1535768128086" duration="538000" />
+      <workItem from="1535769162753" duration="243000" />
+      <workItem from="1535790828785" duration="870000" />
+      <workItem from="1535803381997" duration="696000" />
+      <workItem from="1535934709291" duration="8667000" />
+      <workItem from="1535944917588" duration="745000" />
+      <workItem from="1535949200415" duration="29174000" />
+      <workItem from="1536041259415" duration="4051000" />
+      <workItem from="1536049777387" duration="2359000" />
+      <workItem from="1536055484745" duration="5332000" />
+      <workItem from="1536065285679" duration="1538000" />
+      <workItem from="1536067671101" duration="4738000" />
+      <workItem from="1536108600485" duration="564000" />
+      <workItem from="1536109755968" duration="16172000" />
+      <workItem from="1536144778666" duration="9831000" />
+      <workItem from="1536193975339" duration="10216000" />
+      <workItem from="1536217640001" duration="24632000" />
+      <workItem from="1536281853343" duration="8673000" />
+      <workItem from="1536300288597" duration="17452000" />
+      <workItem from="1536327156928" duration="68000" />
+      <workItem from="1536369080458" duration="17250000" />
+      <workItem from="1536408970001" duration="36000" />
+      <workItem from="1536468039387" duration="191000" />
+      <workItem from="1536539941448" duration="8126000" />
+      <workItem from="1536559606640" duration="8859000" />
+    </task>
+    <task id="LOCAL-00001" summary="lexian-mall第一次上传">
+      <created>1535590182441</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1535590182441</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 17m 36s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 17m 55s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 18m 28s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 23m 17s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 24m 16s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 25m 05s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.05 at 14h 25m 50s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.07 at 14h 29m 12s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.07 at 14h 29m 58s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserLoginServlet_test - 2018.09.07 at 15h 40m 31s.xml">
+      <configuration name="UserLoginServlet.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="395645000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4688385" visible="true" weight="0.2533512" />
+      <window_info id="Structure" order="1" sideWeight="0.5192308" side_tool="true" weight="0.21983914" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.51054853" side_tool="true" weight="0.26742628" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5311615" side_tool="true" weight="0.23257373" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31303117" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49932975" weight="0.3243626" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.25070822" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4716714" visible="true" weight="0.21849866" />
+      <window_info id="Structure" order="1" sideWeight="0.5192308" side_tool="true" weight="0.21983914" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.51054853" side_tool="true" weight="0.26742628" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5283286" side_tool="true" weight="0.21849866" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31303117" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.49932975" weight="0.3243626" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.32765958" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.25070822" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lexian-mall第一次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="lexian-mall第一次上传" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/user/pages/like.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/522617302/FileRecv/goods/web/servlet/seller/SellerGoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5016" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/goods/web/servlet/seller/SellerModifyGoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1722">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/seller/service/SellerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LikeSellerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/RemoveLikeSellerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/order/web/servlet/OrderServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="61" lean-forward="true" selection-start-line="30" selection-start-column="61" selection-end-line="30" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/bill.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="95" column="63" selection-start-line="95" selection-start-column="63" selection-end-line="95" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/cart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="32" column="44" lean-forward="true" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/bill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="28" column="126" selection-start-line="28" selection-start-column="126" selection-end-line="28" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/order/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/order/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="81" column="42" lean-forward="true" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/left.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/goods/web/servlet/SearchGoods.java" />
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/goods/web/servlet/SearchGoodsServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LoadTypeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LoadSubTypeAndTypeGoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="25" column="51" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/adminjsps/admin/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/goodList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/person.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/seller/dao/SellerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="114" column="76" lean-forward="true" selection-start-line="114" selection-start-column="76" selection-end-line="114" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/shopListLike.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/searchgood.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/shopSearch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/css/goodSearch.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/searchshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/SearchSellerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/seller/web/servlet/SellerServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1159">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/component/Map/map.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="62" lean-forward="true" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/css/likegoods.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2382">
+          <caret line="130" column="1" lean-forward="true" selection-start-line="23" selection-end-line="130" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/likegoods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/component/ShopCard/shopCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/SearchGoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/goods/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="164" column="53" selection-start-line="164" selection-start-column="53" selection-end-line="164" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/css/u_footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="59" selection-start-line="37" selection-start-column="59" selection-end-line="37" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="89" column="53" lean-forward="true" selection-start-line="89" selection-start-column="53" selection-end-line="89" selection-end-column="53" />
+          <folding>
+            <element signature="e#143#202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/component/GoodCard/goodCard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/LikeGoodsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/goods/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="46" column="47" lean-forward="true" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+          <folding>
+            <element signature="e#1082#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/works/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="143" column="13" selection-start-line="143" selection-start-column="13" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/GuessLikeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="25" column="84" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/user/pages/goodsSearch.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cose/lexian/user/web/servlet/UserLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>lexian-mall:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>lexian-mall</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
